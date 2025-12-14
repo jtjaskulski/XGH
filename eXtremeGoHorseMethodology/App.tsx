@@ -15,28 +15,28 @@ import {
 import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
 
 const XGH_AXIOMS = [
-  '1. I think, therefore it\'s not XGH.\n\nIn XGH you don\'t think, you do the first thing that comes to your mind. There\'s not a second option as the first one is faster.',
-  '2. There are 3 ways of solving a problem: the right way, the wrong way, and the XGH way which is exactly like the wrong way but faster.\n\nXGH is faster than any development methodology you know.',
-  '3. You\'ll always need to do more and more XGH.\n\nThe more XGH you do the more XGH you\'ll need to do.',
-  '4. There\'s no refactoring, just defactoring.\n\nIf things are working, why mess with them? Never refactor!',
-  '5. XGH is completely reactive.\n\nErrors only exist when they appear.',
-  '6. There\'s no QA, only technically skilled clients.\n\nWho needs QA? The client is the perfect tester. They know the app, they have the environment.',
-  '7. Be ready to receive feedback.\n\nPrepare yourself to hear "This crap doesn\'t work!"',
-  '8. Be ready to give feedback.\n\nPrepare yourself to say "It works on my machine!"',
-  '9. Nosjupport. Use 100% of CPU.\n\nIt\'s faster to reboot than to find the source of a memory leak.',
-  '10. XGH generates the employment.\n\nXGH can\'t be automated. It takes people to do it, which generates employment.',
-  '11. Just ask for help to those who can do XGH.\n\nNever bother a senior programmer. They\'ll waste your time with "best practices".',
-  '12. Never underestimate a newbie\'s XGH.\n\nNewbies can do XGH without even knowing. They\'re naturals.',
-  '13. There\'s no owner for the XGH\'s code.\n\nThe code is everyone\'s and no one\'s. Accept changes from everyone.',
-  '14. Commit always, even if the build fails.\n\nEveryone should see that you\'re working.',
-  '15. Chance of success is inversely proportional to the amount of rules.\n\nNo rules mean guaranteed success.',
-  '16. XGH must never die.\n\nCritical bugs should be kept on duty 24/7.',
-  '17. XGH is anarchic.\n\nNo coordination is needed. Everyone does what they want.',
-  '18. Keep your resume up to date.\n\nYou never know when you\'ll need it.',
-  '19. XGH doesn\'t follow trends.\n\nTrends are for the weak. XGH is timeless.',
-  '20. XGH gives no guarantees.\n\nDeadline? What deadline? Keep coding!',
-  '21. XGH codes as fast as possible.\n\nFaster is always better. Don\'t look back.',
-  '22. One solved problem, 7 created.\n\nThat\'s the XGH productivity metric.',
+  '1. Myślę, więc to nie jest XGH.\n\nW XGH nie myślisz, robisz pierwszą rzecz, która przychodzi ci do głowy. Nie ma drugiej opcji, bo pierwsza jest szybsza.',
+  '2. Są 3 sposoby rozwiązania problemu: właściwy, niewłaściwy i XGH, który jest dokładnie jak niewłaściwy, tylko szybszy.\n\nXGH jest szybszy niż jakakolwiek metodologia, którą znasz.',
+  '3. Zawsze będziesz potrzebować więcej i więcej XGH.\n\nIm więcej XGH robisz, tym więcej XGH będziesz potrzebować.',
+  '4. Nie ma refaktoryzacji, jest tylko defaktoryzacja.\n\nJeśli coś działa, po co to ruszać? Nigdy nie refaktoryzuj!',
+  '5. XGH jest całkowicie reaktywny.\n\nBłędy istnieją tylko wtedy, gdy się pojawią.',
+  '6. Nie ma QA, są tylko technicznie uzdolnieni klienci.\n\nKto potrzebuje QA? Klient jest idealnym testerem. Zna aplikację, ma środowisko.',
+  '7. Bądź gotowy na feedback.\n\nPrzygotuj się na usłyszenie "To gówno nie działa!"',
+  '8. Bądź gotowy dawać feedback.\n\nPrzygotuj się na powiedzenie "U mnie działa!"',
+  '9. Bez wsparcia. Używaj 100% CPU.\n\nSzybciej zrestartować niż znaleźć źródło wycieku pamięci.',
+  '10. XGH generuje zatrudnienie.\n\nXGH nie da się zautomatyzować. Potrzeba ludzi, żeby to robić, co generuje miejsca pracy.',
+  '11. Proś o pomoc tylko tych, którzy potrafią XGH.\n\nNigdy nie zawracaj głowy seniorowi. Zmarnuje ci czas na "dobre praktyki".',
+  '12. Nigdy nie lekceważ XGH początkującego.\n\nPoczątkujący robią XGH nawet o tym nie wiedząc. To naturalni.',
+  '13. Kod XGH nie ma właściciela.\n\nKod jest wszystkich i niczyj. Akceptuj zmiany od każdego.',
+  '14. Commituj zawsze, nawet jak build się wywala.\n\nWszyscy powinni widzieć, że pracujesz.',
+  '15. Szansa sukcesu jest odwrotnie proporcjonalna do liczby reguł.\n\nBrak reguł oznacza gwarantowany sukces.',
+  '16. XGH nigdy nie może umrzeć.\n\nKrytyczne bugi powinny być na dyżurze 24/7.',
+  '17. XGH jest anarchiczny.\n\nKoordynacja nie jest potrzebna. Każdy robi co chce.',
+  '18. Trzymaj CV aktualne.\n\nNigdy nie wiesz, kiedy ci się przyda.',
+  '19. XGH nie podąża za trendami.\n\nTrendy są dla słabych. XGH jest ponadczasowy.',
+  '20. XGH nie daje gwarancji.\n\nDeadline? Jaki deadline? Koduj dalej!',
+  '21. XGH koduje najszybciej jak się da.\n\nSzybciej znaczy lepiej. Nie oglądaj się za siebie.',
+  '22. Jeden rozwiązany problem, 7 stworzonych.\n\nTo jest metryka produktywności XGH.',
 ];
 
 function getRandomAxiom(): string {
@@ -70,7 +70,7 @@ function App(): React.JSX.Element {
 
           {/* Title */}
           <Text style={styles.title}>eXtreme Go Horse</Text>
-          <Text style={styles.subtitle}>Methodology</Text>
+          <Text style={styles.subtitle}>Metodologia</Text>
 
           {/* Axiom Label */}
           <View style={styles.axiomContainer}>
